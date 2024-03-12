@@ -5,4 +5,5 @@ The files in this repository are reqired to run time-series simulations using En
 Description of files are as follow:
 1. BrusselsIWEC.epw: EnergyPlus weather file required for simulation in E+UseCase.ipynb.
 2. E+UseCase.ipynb: Use this notebook to run your first E+ simulation (Dependencies: HPSFD.idf and BrusselsIWEC.epw). Make sure to set the path for your .idd file (E+ installation directory in your local computer).
-3. EnergyPlusParametricRuns.ipynb: Use this notebook to change building parameters in your idf file and run N number of simulations (Dependencies: PVHPSFD and  
+3. EnergyPlusParametricRuns.ipynb: Use this notebook to change building parameters in your idf file and run N number of simulations (Dependencies: PVHPSFD and 3.epw). Again make sure to edit the path to your files.
+4. HPSFD.idf and PVHPSFD.idf: EnergyPlus input files representing single family dwellings (SFD) with Heat Pumps (HPs) and with Solar PV and Heat Pumps. 
